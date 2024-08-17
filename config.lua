@@ -1,6 +1,5 @@
--- Initialize the Config table
 Config = {}
 
--- Set the apiKey and apiUrl
-Config.apiKey = 'API KEY HERE'  -- Verander met API token
-Config.apiUrl = 'https://api.fivemanage.com/api/logs' -- Gewoon zo laten
+
+Config.apiKey = 'API KEY HERE'  -- Change with API key
+Config.apiUrl = 'https://api.fivemanage.com/api/logs' -- Dont change
