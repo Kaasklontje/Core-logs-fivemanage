@@ -1,5 +1,5 @@
 function SendLogToFivemanage(logData)
-    -- Include the resource name in the log data
+    
     logData.resource = GetCurrentResourceName()
 
     local jsonData = json.encode(logData)
